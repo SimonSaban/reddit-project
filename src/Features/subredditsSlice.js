@@ -6,7 +6,7 @@ const subredditsSlice = createSlice({
         subreddits: []
     },
     reducers: {
-        addSubreddit = (state, action) => {
+        addSubreddit: (state, action) => {
             state.subreddits.push(action.payload);
         },
     }

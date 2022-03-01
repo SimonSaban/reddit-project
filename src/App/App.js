@@ -1,5 +1,5 @@
 import './App.css';
-import { Subreddits } from './Components/Subreddits';
+import { Subreddits } from '../Components/Subreddits';
 
 function App() {
   return (
@@ -8,7 +8,6 @@ function App() {
         <Subreddits />
       </aside>        
     </div>
-    
   );
 }
 
